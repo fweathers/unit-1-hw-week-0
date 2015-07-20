@@ -9,6 +9,9 @@ https://github.com/accesscode-2-2/unit-1-hw-week-0/blob/master/images/IMG_3077.P
 * Incorporate ALL UI elements (if you see it in the reference image I should see it in your assignment)
 * You must use images (repo has an assets folder with images for you to use)
 
+**Bonus**
+* Hook up the segmented control to your controller. When the user selected different segments, update the label below to reflect the change  
+* Have the "follow" button toggle between "follow" and "following" when tapped
 
 ##### References 
 > **UISegmentedControl:**  
@@ -22,6 +25,3 @@ https://developer.apple.com/library/prerelease/ios/documentation/GraphicsImaging
 https://developer.apple.com/library/ios/documentation/GraphicsImaging/Reference/CALayer_class/  
 http://www.raywenderlich.com/90488/calayer-in-ios-with-swift-10-examples  
 
-**Bonus**
-* Hook up the segmented control to your controller. When the user selected different segments, update the label below to reflect the change  
-* Have the "follow" button toggle between "follow" and "following" when tapped
