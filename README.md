@@ -15,11 +15,12 @@ Any setup code you need to write can be written in the supplied `viewDidLoad:` m
 
 **Bonus**
 * Hook up the segmented control to your controller. When the user selected different segments, update the label below to reflect the change  
-* Have the "follow" button toggle between "follow" and "following" when tapped
+* Have the "follow" button toggle between "follow" and "following" when tapped  
+* Use a profile/cover image from the web with the NSURL class. 
 
 ##### References 
 > **UISegmentedControl:**  
-https://developer.apple.com/library/ios/documentation/UIKit/Reference/UISegmentedControl_Class/
+https://developer.apple.com/library/ios/documentation/UIKit/Reference/UISegmentedControl_Class/  
 > **UIImageView:**  
 https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIImageView_Class/  
 > **NSAttributedString:** (optional for "following"/"followers")
