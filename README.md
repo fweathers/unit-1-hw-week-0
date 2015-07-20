@@ -3,7 +3,7 @@
 The goal of this assignment is to remake the UI from the official Twitter app profile screen.
 
 > **Image references:**  
-https://github.com/accesscode-2-2/unit-1-hw-week-0/blob/master/images/IMG_3080.PNG?raw=true
+https://github.com/accesscode-2-2/unit-1-hw-week-0/blob/master/images/IMG_3080.PNG?raw=true  
 https://github.com/accesscode-2-2/unit-1-hw-week-0/blob/master/images/IMG_3082.PNG?raw=true
 
 ##### Requirements  
