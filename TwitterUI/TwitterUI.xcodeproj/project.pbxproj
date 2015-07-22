@@ -416,6 +416,7 @@
 				8DD2E0281B5C7F3600C27DE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8DD2E0291B5C7F3600C27DE1 /* Build configuration list for PBXNativeTarget "TwitterUITests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +425,7 @@
 				8DD2E02B1B5C7F3600C27DE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
