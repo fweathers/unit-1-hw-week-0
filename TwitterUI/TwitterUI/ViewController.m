@@ -7,8 +7,15 @@
 //
 
 #import "ViewController.h"
+#import <QuartzCore/QuartzCore.h>
+
 
 @interface ViewController ()
+
+@property (weak, nonatomic) IBOutlet UIImageView *profilePictureImageView;
+@property (weak, nonatomic) IBOutlet UIImageView *followPictureImageView;
+@property (weak, nonatomic) IBOutlet UIImageView *tweetPictureImageView;
+
 
 @end
 
@@ -16,12 +23,20 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+
+    self.profilePictureImageView.layer.masksToBounds = YES;
+    self.profilePictureImageView.layer.cornerRadius = 10;
+    [self.profilePictureImageView.layer setBorderColor: [[UIColor whiteColor] CGColor]];
+    [self.profilePictureImageView.layer setBorderWidth: 4.0];
+    [self.followPictureImageView.layer setBorderColor: [[UIColor blueColor] CGColor]];
+    [self.followPictureImageView.layer setBorderWidth: 2.0];
+    self.followPictureImageView.layer.cornerRadius = 5;
+    [self.tweetPictureImageView.layer setBorderWidth: 4.0];
+    [self.tweetPictureImageView.layer setBorderColor: [[UIColor blueColor] CGColor]];
+    [self.tweetPictureImageView.layer setBorderWidth: 2.0];
+    self.tweetPictureImageView.layer.cornerRadius = 5;
+    
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 @end
